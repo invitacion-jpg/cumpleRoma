@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Invitación Roma</title>
+
+<!-- Preview WhatsApp -->
+<meta property="og:title" content="Cumple Roma 6 años">
+<meta property="og:description" content="Te esperamos 🎉">
+<meta property="og:image" content="https://invitacion-jpg.github.io/cumpleRoma/cumpleRoma.jpg">
+<meta property="og:url" content="https://cumpleRoma">
+<meta property="og:type" content="website">
+
+<style>
+body {
+    margin: 0;
+    background: #000;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 420px;
+}
+
+.container img {
+    width: 100%;
+    display: block;
+}
+
+/* Zonas clickeables */
+.link {
+    position: absolute;
+}
+
+/* UBICACIÓN */
+.link-ubicacion {
+    top: 55%;
+    left: 10%;
+    width: 35%;
+    height: 9%;
+}
+
+/* CONFIRMA AQUÍ */
+.link-confirma {
+    top: 55%;
+    left: 55%;
+    width: 35%;
+    height: 9%;
+}
+</style>
+</head>
+
+<body>
+<div class="container">
+    <img src="tarjeta.png" alt="Invitación Roma">
+
+    <!-- UBICACIÓN -->
+    <a class="link link-ubicacion"
+       href="https://maps.app.goo.gl/wmLxvTe87hoccsSS8?g_st=ic"
+       target="_blank"
+       aria-label="Ubicación"></a>
+
+    <!-- CONFIRMA AQUÍ -->
+    <a class="link link-confirma"
+       href="https://wa.me/2613729027?text=Confirmo%20asistencia%20al%20cumple%20de%20Roma"
+       target="_blank"
+       aria-label="Confirmar asistencia"></a>
+</div>
+</body>
+</html>
